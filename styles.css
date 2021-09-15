@@ -13,9 +13,7 @@ a {
   font-size: 1.1em;
   font-weight: 500;
 }
-.navbar {
-  background-color: white;
-}
+
 .navbar__identification {
   display: flex;
   justify-content: space-between;
