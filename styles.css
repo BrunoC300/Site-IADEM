@@ -4,11 +4,17 @@
   margin: 0;
   font-family: "DM Sans", sans-serif;
 }
+body {
+  background-color: #e5ceaf;
+}
 a {
   text-decoration: none;
   color: black;
   font-size: 1.1em;
   font-weight: 500;
+}
+.navbar {
+  background-color: white;
 }
 .navbar__identification {
   display: flex;
@@ -39,15 +45,15 @@ a {
 }
 
 .project {
+  background-color: #e5ceaf;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   margin: 0 2em;
 }
 .project__logo {
   margin: 0 auto;
   width: 500px;
-  height: 350px;
+  height: 400px;
 }
 .project__name {
   text-align: center;
