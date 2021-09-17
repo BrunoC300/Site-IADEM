@@ -112,13 +112,22 @@ a {
 
 .about {
   padding: 4em 12em 2em;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   width: 75%;
 }
 .about__title {
   font-size: 2em;
   margin-bottom: 1em;
+}
+.about__subtitle {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin: 1.3em auto;
+}
+.lists > li {
+  margin: 0 0 10px 0;
 }
 .reportagem {
   text-align: center;
