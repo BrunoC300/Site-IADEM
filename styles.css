@@ -251,6 +251,10 @@ ol li::marker {
   object-fit: contain;
 }
 
+.form {
+  padding: 3em 0;
+}
+
 .form__button {
   font-size: 1.3em;
   display: block;
@@ -265,10 +269,17 @@ ol li::marker {
 }
 
 .contactos {
-  border: 2px solid black;
   padding: 20px;
   margin: 4em auto;
   display: flex;
   justify-content: space-around;
   text-align: left;
+}
+
+.container-border {
+  padding: 10px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 50px auto;
+  width: 75%;
 }
