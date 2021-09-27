@@ -329,7 +329,7 @@ ol li::marker {
 
 .slide img {
   width: 800px;
-  height: 500px;
+  height: 440px;
   object-fit: contain;
 }
 
@@ -380,6 +380,12 @@ ol li::marker {
 #radio6:checked ~ .first {
   margin-left: -100%;
 }
+#radio7:checked ~ .first {
+  margin-left: -120%;
+}
+#radio8:checked ~ .first {
+  margin-left: -140%;
+}
 
 /*css for automatic navigation*/
 
@@ -421,5 +427,66 @@ ol li::marker {
   background: black;
 }
 #radio6:checked ~ .navigation-auto .auto-btn6 {
+  background: black;
+}
+#radio6:checked ~ .navigation-auto .auto-btn7 {
+  background: black;
+}
+#radio6:checked ~ .navigation-auto .auto-btn8 {
+  background: black;
+}
+
+/* SECOND SLIDER*/
+
+#image__slider__2 {
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slide_radio_1:checked ~ .first {
+  margin-left: 0%;
+}
+
+#slide_radio_2:checked ~ .second {
+  margin-left: -20%;
+}
+
+#slide_radio_3:checked ~ .second {
+  margin-left: -40%;
+}
+
+#slide_radio_4:checked ~ .second {
+  margin-left: -60%;
+}
+#slide_radio_5:checked ~ .second {
+  margin-left: -80%;
+}
+#slide_radio_6:checked ~ .second {
+  margin-left: -100%;
+}
+
+#slide_radio_1:checked ~ .navigation-auto .auto-btn1 {
+  background: black;
+}
+
+#slide_radio_2:checked ~ .navigation-auto .auto-btn2 {
+  background: black;
+}
+
+#slide_radio_3:checked ~ .navigation-auto .auto-btn3 {
+  background: black;
+}
+
+#slide_radio_4:checked ~ .navigation-auto .auto-btn4 {
+  background: black;
+}
+#slide_radio_5:checked ~ .navigation-auto .auto-btn5 {
+  background: black;
+}
+#slide_radio_6:checked ~ .navigation-auto .auto-btn6 {
   background: black;
 }
