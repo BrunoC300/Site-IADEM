@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #5aa9e6;
   color: white;
 }
 a {
@@ -25,6 +24,7 @@ li {
 }
 
 .navbar {
+  background-color: #5aa9e6;
   display: flex;
   flex-wrap: 1 0 67%;
   align-items: center;
@@ -68,10 +68,12 @@ li {
 }
 
 .project {
+  position: relative;
+  height: 70vh;
   background-color: #5aa9e6;
   display: flex;
   flex-direction: column;
-  margin: 0 2em;
+  padding: 0 2em;
 }
 .project__logo {
   margin: 0 auto;
@@ -84,52 +86,78 @@ li {
 }
 
 .newsletter {
-  padding: 50px 50px;
-  margin: 40px auto;
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-}
-.newsletter__headers {
+  color: #5aa9e6;
+  height: 45vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  margin: 10vh auto;
+  align-items: center;
+  text-align: center;
 }
 .newsletter__form {
-  width: 40%;
+  width: 35%;
 }
-.newsletter__form__label {
-  margin-left: 3px;
-  font-size: 1.1em;
+.newsletter__headers__header {
+  font-size: 2em;
+  font-weight: 700;
 }
+.newsletter__headers__info {
+  color: black;
+}
+
 .email__input {
   font-size: 1.1em;
   width: 100%;
-  padding: 8px 12px;
-  margin-top: 0.3em;
-  margin-bottom: 0.7em;
+  border-radius: 10px;
+  padding: 12px 32px;
+  margin-bottom: 0.2em;
   border: none;
-  border-radius: 5px;
+  background-color: #ececec;
 }
 .email__input:focus {
-  outline: 2px solid black;
+  outline: 2px solid white;
 }
 .submit__button {
-  font-size: 1.3em;
+  color: white;
+  font-size: 1.2em;
   display: block;
   width: 100%;
-  background-color: #e5ceaf;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 8px 32px;
+  background-color: #5aa9e6;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 12px 32px;
   text-decoration: none;
   margin: 5px auto;
   cursor: pointer;
 }
 .submit__button:hover {
-  background-color: black;
-  border: 2px solid #e5ceaf;
-  color: #e5ceaf;
+  background-color: white;
+  border: 2px solid #5aa9e6;
+  color: #5aa9e6;
+}
+
+.custom-shape-divider-bottom-1633361847 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1633361847 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 104px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1633361847 .shape-fill {
+  fill: #ffffff;
 }
 
 /* ------------------------------PÁGINA ACERCA----------------------------*/
