@@ -69,20 +69,27 @@ li {
 
 .project {
   position: relative;
-  height: 70vh;
+  height: 80vh;
   background-color: #5aa9e6;
-  display: flex;
-  flex-direction: column;
   padding: 0 2em;
 }
-.project__logo {
-  margin: 0 auto;
+.project__divider {
+  display: flex;
+  justify-content: space-around;
+}
+.project__image {
+  border-radius: 700px;
   width: 500px;
   height: 400px;
 }
+.project__name__div {
+  align-self: center;
+}
 .project__name {
+  font-weight: 700;
+  text-transform: uppercase;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 4.5em;
 }
 
 .newsletter {
