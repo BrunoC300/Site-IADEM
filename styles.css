@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,45 +6,69 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #e5ceaf;
+  background-color: #5aa9e6;
+  color: white;
 }
 a {
   text-decoration: none;
   color: black;
   font-size: 1.1em;
-  font-weight: 500;
+}
+a,
+a:hover,
+a:visited {
+  color: inherit;
 }
 
-.navbar__identification {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+li {
+  list-style: none;
 }
+
+.navbar {
+  display: flex;
+  flex-wrap: 1 0 67%;
+  align-items: center;
+  padding: 2vw 8vw;
+}
+
 .navbar__logo {
-  margin-left: 3em;
-  width: 60px;
-  height: 60px;
+  width: 160px;
+  height: 130px;
   object-fit: contain;
 }
 .navbar__title {
-  align-items: center;
+  position: absolute;
+  top: 130px;
+  left: 80px;
   font-size: 1.4em;
   font-weight: 700;
 }
-.links > ul {
-  display: flex;
-  align-items: center;
+.links {
+  text-align: right;
+  margin-left: auto;
+  padding-left: 2.5vw;
 }
-.links > ul > li {
-  list-style: none;
-  padding: 1.2em;
+.links > a {
+  margin-left: 1.2vw;
+  font-size: calc((1 - 1) * 1.2vw + 1.05rem;);
 }
-.links > ul > li:last-child {
-  padding-right: 3em;
+.action__link {
+  padding: 0.88em 1.4696em;
+  font-size: 1.1em;
+  margin-left: 2.5vw;
+  border: 2px solid white;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: calc((0.9 - 1) * 1.2vw + 1.05rem);
+}
+.action__link:hover {
+  color: #5aa9e6;
+  background-color: white;
 }
 
 .project {
-  background-color: #e5ceaf;
+  background-color: #5aa9e6;
   display: flex;
   flex-direction: column;
   margin: 0 2em;
@@ -160,6 +184,12 @@ ol li::marker {
 }
 
 /* ------------------------------PÁGINA Equipa----------------------------*/
+
+.introduction {
+  margin: 3em auto;
+  text-align: left;
+  font-size: 1.2em;
+}
 
 .portfolio {
   display: flex;
