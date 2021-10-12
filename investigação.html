@@ -10,7 +10,9 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <script src="actions.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/investigacao.css" />
     <title>IADEM</title>
   </head>
   <body>
@@ -90,4 +92,9 @@
       alt=""
     />
   </footer>
+  <script>
+    window.addEventListener("load", () => {
+      document.querySelector("body").classList.add("loaded");
+    });
+  </script>
 </html>
