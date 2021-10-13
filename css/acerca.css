@@ -1,6 +1,9 @@
 /* ------------------------------PÁGINA ACERCA----------------------------*/
-
+body {
+  background-color: #5aa9e6;
+}
 .about {
+  font-size: 1.1em;
   color: black;
   padding: 4em 12em 2em;
   text-align: left;
@@ -8,12 +11,12 @@
   width: 85%;
 }
 .about__title {
-  color: #5aa9e6;
+  color: white;
   font-size: 2em;
   margin-bottom: 1em;
 }
 .about__subtitle {
-  color: #5aa9e6;
+  color: white;
   text-align: left;
   font-weight: bold;
   font-size: 1.4em;
@@ -31,4 +34,13 @@
   width: 45em;
   height: 30em;
   padding-bottom: 3em;
+}
+
+/* -------Animations-----------------*/
+
+.loaded .about {
+  animation: fadeIn 0.8s ease-in 0.7s forwards;
+}
+.about {
+  opacity: 0;
 }

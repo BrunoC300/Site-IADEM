@@ -23,6 +23,7 @@ li {
 }
 
 .navbar {
+  color: white;
   background-color: #5aa9e6;
   display: flex;
   flex-wrap: 1 0 67%;
@@ -108,7 +109,7 @@ li {
 }
 
 .loaded .action__button {
-  animation: fadeIn 3s ease-in 0.7s forwards;
+  animation: fadeIn 2.5s ease-in 0.7s forwards;
 }
 
 .loaded .navbar::after {
