@@ -40,39 +40,10 @@ body {
   font-size: 1.8em;
   text-align: center;
 }
-
-.form {
-  padding: 3em 0;
+.box:hover {
+  color: #5aa9e6;
 }
 
-.form__button {
-  font-size: 1.3em;
-  display: block;
-  width: 100%;
-  background-color: #e5ceaf;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 8px 32px;
-  text-decoration: none;
-  margin: 3em auto;
-  cursor: pointer;
-}
-
-.contactos {
-  padding: 20px;
-  margin: 4em auto;
-  display: flex;
-  justify-content: space-around;
-  text-align: left;
-}
-
-.container-border {
-  padding: 10px;
-  border: 2px solid black;
-  text-align: center;
-  margin: 50px auto;
-  width: 75%;
-}
 /* -------Animations-----------------*/
 
 .loaded .box:nth-child(1) {
