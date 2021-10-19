@@ -1,7 +1,11 @@
 /* ------------------------------PÁGINA ACERCA----------------------------*/
 body {
+  background-color: white;
+}
+.about__container {
   background-color: #5aa9e6;
 }
+
 .about {
   font-size: 1.1em;
   color: black;
@@ -10,6 +14,7 @@ body {
   margin: 0 auto;
   width: 85%;
 }
+
 .about__title {
   color: white;
   font-size: 2em;
@@ -22,8 +27,15 @@ body {
   font-size: 1.4em;
   margin: 1.3em auto;
 }
+.about__subtitle.secondpage {
+  color: #5aa9e6;
+}
 .lists > li {
   margin: 0 0 10px 0;
+}
+.reportagem__container {
+  padding: 5em;
+  background-color: #5aa9e6;
 }
 .reportagem {
   text-align: center;
